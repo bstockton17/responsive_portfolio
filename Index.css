@@ -1,3 +1,8 @@
+body{
+  background-color:#9fd0cb;
+  ;
+}
+
 input[type=text], select, textarea {
     width: 25%; /* Full width */
     padding: 10px; /* Some padding */ 
@@ -26,6 +31,14 @@ input[type=text], select, textarea {
   
   /* Add a background color and some padding around the form */
   .container {
+    border-radius: 5px;
+    background-color: #e1e3d1;
+    padding: 20px;
+  }
+
+  .card{
+    border-width: 5px;
+    border-color:rgb(41, 46, 193) ;
     border-radius: 5px;
     background-color: #e1e3d1;
     padding: 20px;
